@@ -1,0 +1,69 @@
+#
+# mod-attunement-skip Configuration
+#
+# Companion module for mod-individual-progression
+# Automatically grants raid attunement items and completes attunement quests
+#
+
+[worldserver]
+
+########################################
+# Attunement Skip Configuration
+########################################
+
+# AttunementSkip.Enable
+#
+#        Description: Enable the Attunement Skip module
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+AttunementSkip.Enable = 1
+
+########################################
+# Item Grants (Level-based)
+########################################
+
+# AttunementSkip.DrakefireAmulet
+#        Description: Grant Drakefire Amulet (Onyxia's Lair) at level 60
+#        Default:     1
+AttunementSkip.DrakefireAmulet = 1
+
+# AttunementSkip.OnyxiaScaleCloak
+#        Description: Grant Onyxia Scale Cloak (BWL Shadow Flame protection) at level 60
+#        Default:     1
+AttunementSkip.OnyxiaScaleCloak = 1
+
+# AttunementSkip.KeyToKarazhan
+#        Description: Grant Key to Karazhan at level 70
+#        Default:     1
+AttunementSkip.KeyToKarazhan = 1
+
+# AttunementSkip.TempestKey
+#        Description: Grant Tempest Key (The Eye) at level 70
+#        Default:     1
+AttunementSkip.TempestKey = 1
+
+# AttunementSkip.MedallionOfKarabor
+#        Description: Grant Medallion of Karabor (Black Temple) at level 70
+#        Default:     1
+AttunementSkip.MedallionOfKarabor = 1
+
+########################################
+# Quest Auto-Completion
+########################################
+
+# AttunementSkip.Naxx40Attunement
+#        Description: Auto-complete Naxx40 attunement quests at level 60
+#                     (The Archangel's Payload, Echoes of War, The Only Song I Know...)
+#        Default:     1
+AttunementSkip.Naxx40Attunement = 1
+
+# AttunementSkip.CudgelOfKarDesh
+#        Description: Auto-complete The Cudgel of Kar'desh quest at level 70 (SSC entry)
+#        Default:     1
+AttunementSkip.CudgelOfKarDesh = 1
+
+# AttunementSkip.VialsOfEternity
+#        Description: Auto-complete The Vials of Eternity quest at level 70 (Hyjal entry)
+#        Default:     1
+AttunementSkip.VialsOfEternity = 1
