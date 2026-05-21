@@ -164,7 +164,7 @@ void AttunementSkip::AutoCompleteQuest(Player* player, uint32 questId)
     // Complete and reward the quest
     if (player->GetQuestStatus(questId) != QUEST_STATUS_REWARDED)
     {
-        player->RewardQuest(quest, 0, nullptr, false, false);
+        player->RewardQuest(quest, 0, player, false, false);
     }
 }
 
